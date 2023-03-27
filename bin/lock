@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+res=$(xdpyinfo | grep dimensions | cut -d\  -f7)
+
+wallpaper="tmp_wallpaper.png"
+
+convert -resize "$res!" "$HOME/Pictures/wallpapers/wallpaper_10.png" "/var/tmp/$wallpaper"
+# echo "$res"
+i3lock -i /var/tmp/$wallpaper $1
+

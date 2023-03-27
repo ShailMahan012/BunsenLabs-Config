@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+java -jar $HOME/vnc/nossh/tightvnc-jviewer.jar
+
