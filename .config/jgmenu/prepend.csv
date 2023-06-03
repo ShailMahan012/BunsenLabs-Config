@@ -147,7 +147,7 @@ Remmina,remmina
 ^sep()
 Restart Squid Server,xterm -e "echo \"Restarting Squid Server\" ; sudo systemctl restart squid ; echo DONE ;  sleep 2"
 ^sep()
-Shail Git Token,echo "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" | xclip -sel clip,utilities
+Shail Git Token,echo "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" | xclip -sel clip,utilities
 #EXIT,killall Xorg
 
 ^tag(apps)
